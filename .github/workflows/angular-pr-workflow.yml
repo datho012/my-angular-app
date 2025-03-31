@@ -11,6 +11,7 @@ on:
 
 jobs:
   build-and-test:
+    if: github.head_ref == 'production' # Run only if the source branch is 'production'
     runs-on: windows-latest
 
     steps:
