@@ -3,7 +3,7 @@ name: Angular CI on Windows
 on:
   pull_request:
     branches:
-      - main
+      - master
     types:
       - opened
       - synchronize
