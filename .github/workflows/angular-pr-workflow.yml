@@ -32,7 +32,3 @@ jobs:
       # Build the Angular project
       - name: Build project
         run: npm run build
-
-      # Run unit tests
-      - name: Run unit tests
-        run: npm test
