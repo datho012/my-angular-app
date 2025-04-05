@@ -57,3 +57,56 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+# MyAngularApp
+
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+
+## Project Structure
+
+```
+my-angular-app/
+├── .github/
+│   └── workflows/
+│       └── angular-pr-workflow.yml
+├── .vscode/
+│   ├── extensions.json
+│   ├── launch.json
+│   └── tasks.json
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── todo-list/
+│   │   │   │   └── todo-list.component.ts
+│   │   │   └── todo-item/
+│   │   │       └── todo-item.component.ts
+│   │   ├── models/
+│   │   │   └── todo.model.ts
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.scss
+│   │   ├── app.component.spec.ts
+│   │   ├── app.config.ts
+│   │   ├── app.config.server.ts
+│   │   ├── app.routes.ts
+│   │   └── app.routes.server.ts
+│   ├── assets/
+│   ├── main.ts
+│   ├── main.server.ts
+│   ├── server.ts
+│   ├── styles.scss
+│   └── index.html
+├── angular.json
+├── package.json
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.spec.json
+├── .editorconfig
+├── .gitignore
+└── README.md
+```
+
+## Development server
+
+// ...existing code...
