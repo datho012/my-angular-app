@@ -1,0 +1,19 @@
+<!-- This is the HTML template for the user card component -->
+<div class="user-card">
+    <div class="user-info">
+        <h3>{{ user.name }}</h3>
+        <p><strong>{{ t('users.email')() }}:</strong> {{ user.email }}</p>
+        <p><strong>{{ t('users.phone')() }}:</strong> {{ user.phone }}</p>
+    </div>
+    <div class="user-actions">
+        <button class="view-btn" (click)="onView()">
+            {{ t('users.view')() }}
+        </button>
+        <button class="edit-btn" (click)="onEdit()">
+            {{ t('users.edit')() }}
+        </button>
+        <button class="delete-btn" (click)="onDelete()">
+            {{ t('users.delete')() }}
+        </button>
+    </div>
+</div>

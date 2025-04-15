@@ -1,0 +1,8 @@
+{
+  "users": {
+    "email": "Email",
+    "phone": "Phone",
+    "edit": "Edit",
+    "search": "Search users..."
+  }
+}
