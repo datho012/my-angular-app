@@ -1,0 +1,30 @@
+<div class="user-detail">
+    <div class="header">
+        <h2>{{ t('users.title')() }}</h2>
+        <button class="back-btn" (click)="goBack()">←</button>
+    </div>
+
+    @if (loading()) {
+    <div class="loading">Loading...</div>
+    } @else if (error()) {
+    <div class="error">{{ error() }}</div>
+    } @else {
+    @if (userValue(); as user) {
+        @if (isEditing) {
+        <app-user-form [user]="user" (save)="onSave($event)" (cancel)="isEditing = false">
+        </app-user-form>
+        } @else {
+        <div class="user-info">
+            <h3>{{ user.name }}</h3>
+            <p><strong>{{ t('users.email')() }}:</strong> {{ user.email }}</p>
+            <p><strong>{{ t('users.phone')() }}:</strong> {{ user.phone }}</p>
+            <button class="edit-btn" (click)="isEditing = true">
+                {{ t('users.edit')() }}
+            </button>
+        </div>
+        }
+    } @else {
+        <div class="not-found">User not found</div>
+    }
+    }
+</div>

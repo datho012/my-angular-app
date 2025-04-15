@@ -1,0 +1,278 @@
+.app-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      background: #2c3e50;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-brand {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .nav-links a:hover, .nav-links a.active {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .language-switcher {
+      display: flex;
+      gap: 8px;
+    }
+
+    .language-switcher button {
+      padding: 6px 12px;
+      border: 1px solid white;
+      background: transparent;
+      color: white;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .language-switcher button.active {
+      background: white;
+      color: #2c3e50;
+    }
+
+    main {
+      flex: 1;
+      background-color: #f5f6fa;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: auto;
+    }.app-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      background: #2c3e50;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-brand {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .nav-links a:hover, .nav-links a.active {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .language-switcher {
+      display: flex;
+      gap: 8px;
+    }
+
+    .language-switcher button {
+      padding: 6px 12px;
+      border: 1px solid white;
+      background: transparent;
+      color: white;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .language-switcher button.active {
+      background: white;
+      color: #2c3e50;
+    }
+
+    main {
+      flex: 1;
+      background-color: #f5f6fa;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: auto;
+    }.app-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      background: #2c3e50;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-brand {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .nav-links a:hover, .nav-links a.active {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .language-switcher {
+      display: flex;
+      gap: 8px;
+    }
+
+    .language-switcher button {
+      padding: 6px 12px;
+      border: 1px solid white;
+      background: transparent;
+      color: white;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .language-switcher button.active {
+      background: white;
+      color: #2c3e50;
+    }
+
+    main {
+      flex: 1;
+      background-color: #f5f6fa;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: auto;
+    }.app-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      background: #2c3e50;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-brand {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .nav-links a:hover, .nav-links a.active {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .language-switcher {
+      display: flex;
+      gap: 8px;
+    }
+
+    .language-switcher button {
+      padding: 6px 12px;
+      border: 1px solid white;
+      background: transparent;
+      color: white;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .language-switcher button.active {
+      background: white;
+      color: #2c3e50;
+    }
+
+    main {
+      flex: 1;
+      background-color: #f5f6fa;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: auto;
+    }
+    body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  }
+
+  main {
+  padding: 20px;
+  }

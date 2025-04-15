@@ -1,12 +1,21 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, inject } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterModule, RouterOutlet } from '@angular/router';
+import { LanguageService } from '../core/i18n/language.service';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  standalone: true,
+  imports: [CommonModule, RouterModule, RouterOutlet],
+  templateUrl: `./app.component.html`,
+  styleUrls: [`./app.component.scss`],
 })
 export class AppComponent {
-  title = 'my-angular-app';
+  private langService = inject(LanguageService);
+  
+  lang = this.langService.lang;
+
+  switchLanguage(lang: 'en' | 'vi') {
+    this.langService.setLanguage(lang);
+  }
 }
