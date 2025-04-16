@@ -11,7 +11,7 @@ on:
 
 jobs:
   build-and-test:
-    if: github.head_ref == 'production' || github.head_ref == 'main' # Run only if the source branch is 'production' or 'main'
+    if: github.head_ref == 'production' # Run only if the source branch is 'production'
     runs-on: windows-latest
 
     steps:
@@ -31,4 +31,4 @@ jobs:
 
       # Build the Angular project
       - name: Build project
-        run: npm run build --congfiguration=production
+        run: npm run build
